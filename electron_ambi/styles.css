@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #09122C;
+    color: white;
+}
+
+video {
+    width: 800px;
+    height: 600px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 800px; /* Видео должно заполнять контейнер */
+    height: 600px;
+    z-index: 999;
+}
+
+#colorSegmentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.segment {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+#ledTableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    width: 10px;
+    height: 10px;
+}
+
+table, td {
+    border: 1px solid transparent;
+}
+
+table tr:first-child td {
+    border: 2px solid white;
+}
+
+table tr:last-child td {
+    border: 2px solid white;
+}
+
+table td:first-child {
+    border: 2px solid white;
+}
+
+table td:last-child {
+    border: 2px solid white;
+}

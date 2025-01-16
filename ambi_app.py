@@ -103,7 +103,7 @@ def open_settings_window():
         selected_port = port_combobox.get()
 
         try:
-            arduino = serial.Serial(selected_port, 115200, timeout=1)
+            arduino = serial.Serial(selected_port, 9600, timeout=1)
             time.sleep(2)  # Ожидание подключения к Arduino
             messagebox.showinfo("Success", "Connection to Arduino established!")
             

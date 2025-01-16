@@ -1,0 +1,16 @@
+{
+  "name": "abounding-magic-convert-78m8l",
+  "productName": "abounding-magic-convert-78m8l",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "dziiva",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "33.3.0"
+  }
+}
